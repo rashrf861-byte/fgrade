@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title= "Total Grade Calcilator", page_icon="🎓", layout="centered")
 st.sidebar.title("Choose your grade📌")
-page = st.sidebar.radio("go to:"["university","secondary"])
+page = st.sidebar.radio("go to:", ["university", "secondary"])
 if page =="secondary":
     st.title("The Grade Calculator🎓")
     st.write("Write your grade in each subject down here, and let the calc do the rest")
